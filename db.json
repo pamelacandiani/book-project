@@ -1,19 +1,31 @@
 {
-  "posts": [
+  "books": [
+
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "title": "Livro 1",
+      "author": "pessoa",
+      "publisher": "Saraiva",
+      "price": 40
+    },
+
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "title": "Livro 2",
+      "author": "pessoa viva",
+      "publisher": "Saraiva",
+      "price": 40
+    },
+
+    {
+      "id": 1,
+      "title": "Livro 3",
+      "author": "pessoa legal",
+      "publisher": "Saraiva",
+      "price": 40
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+
+
+  ]
+
 }
