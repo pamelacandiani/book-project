@@ -1,5 +1,5 @@
 {
-  "books": [
+  "Books": [
 
     {
       "id": 1,
@@ -10,21 +10,20 @@
     },
 
     {
-      "id": 1,
+      "id": 2,
       "title": "Livro 2",
-      "author": "pessoa viva",
+      "author": "pessoa legal",
       "publisher": "Saraiva",
       "price": 40
     },
 
     {
-      "id": 1,
+      "id": 3,
       "title": "Livro 3",
-      "author": "pessoa legal",
+      "author": "pessoa sim",
       "publisher": "Saraiva",
       "price": 40
     }
-
 
   ]
 
