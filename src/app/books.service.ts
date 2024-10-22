@@ -19,4 +19,9 @@ export class BooksService {
     return this.http.delete<void>('http://localhost:3000/books/' + books.id)
   }
 
+  save(books: Books): Observable<Books>{
+    return this.http.post<Books>('http://localhost:3000/books/', books)
+  }
+
 }
+

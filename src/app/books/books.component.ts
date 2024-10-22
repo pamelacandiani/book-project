@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Books } from '../books';
 import { BooksService } from '../books.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-books',
@@ -11,7 +12,7 @@ export class BooksComponent implements OnInit {
 
   books: Books[] = []
 
-  constructor(private service: BooksService){}
+  constructor(private service: BooksService, private router: Router){}
 
   ngOnInit(): void {
     this.loadBooks();
@@ -29,4 +30,7 @@ export class BooksComponent implements OnInit {
     })
   }
 
+  create(){
+    this.router.navigate(['books-forms'])
+  }
 }
