@@ -15,5 +15,8 @@ export class BooksService {
     return this.http.get<Books  []>('http://localhost:3000/books')
   }
 
+  delete(books: Books): Observable<void>{
+    return this.http.delete<void>('http://localhost:3000/books/' + books.id)
+  }
 
 }
